@@ -1,0 +1,152 @@
+h1 {
+    color: rgb(119, 115, 115);
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 45px;
+}
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+  
+.topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: lightgrey;
+    color: white;
+}
+
+
+.carousel {
+    padding-top: 10px;
+    max-width: 80%;
+    position: relative;
+    margin: auto;
+}
+
+.carouselSlides {
+    display: none;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+  
+@-webkit-keyframes fade {
+from {opacity: .5}
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .5}
+to {opacity: 1}
+}
+
+.selfPortrait {
+    padding-top: 2%;
+    padding-bottom: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+img.center:hover {
+    -ms-transform: scale(1.3); /* IE 9 */
+    -webkit-transform: scale(1.3); /* Safari 3-8 */
+    transform: scale(1.3); 
+      
+}
+
+.autoBio {
+    color: rgb(119, 115, 115);
+}
+
+p.blockText {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 28px;
+}
+
+.column {
+    flex: 32%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    max-width: 100%
+}
+
+ul {
+    color: white;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    text-align: center;
+    list-style: none;
+    font-size: 28px;
+}
+
+li {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.equipmentItems {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+div.itemText {
+    background-color:rgb(37, 36, 36);
+    width: 300px;
+    height: 110px;
+    overflow: scroll;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    margin: auto;
+
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 9px;
+}
